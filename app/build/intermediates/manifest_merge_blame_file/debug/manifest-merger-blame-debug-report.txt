@@ -1,0 +1,57 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.accelerometer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:6:5-27:19
+12        android:allowBackup="true"
+12-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.2] /Users/BProw 1/.gradle/caches/transforms-2/files-2.1/59634bf3360427ef7f7373ad7fa95cb2/core-1.0.2/AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:9:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:10:9-54
+18        android:supportsRtl="true"
+18-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:11:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:12:9-40
+21        <activity
+21-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:14:9-21:20
+22            android:name="com.android.accelerometer.StartUp"
+22-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:14:19-42
+23            android:exported="true" >
+23-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:15:13-36
+24            <intent-filter>
+24-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:16:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:17:17-69
+25-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:17:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:19:17-77
+27-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.android.accelerometer.SuhDud" />
+30-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:22:9-44
+30-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:22:19-41
+31        <activity android:name="com.android.accelerometer.Accelerometer" >
+31-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:23:9-26:20
+31-->/Users/BProw 1/AndroidStudioProjects/Accelerometer/app/src/main/AndroidManifest.xml:23:19-48
+32        </activity>
+33    </application>
+34
+35</manifest>
