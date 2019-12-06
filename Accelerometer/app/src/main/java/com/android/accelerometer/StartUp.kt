@@ -14,7 +14,7 @@ import android.widget.ImageButton
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_start_up.*
 import java.util.*
-
+// altered this
 class StartUp : AppCompatActivity() {
     private lateinit var nameField : EditText
     private lateinit var pwField : EditText

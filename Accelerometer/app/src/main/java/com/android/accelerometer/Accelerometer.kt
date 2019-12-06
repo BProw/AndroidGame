@@ -35,6 +35,7 @@ class Accelerometer : AppCompatActivity(), SensorEventListener {
     private lateinit var layout : ConstraintLayout
     private var sensor : SensorManager? = null
 
+	// comments for code
     private var elapsedTime : Long = 0
     private var trashSize = 0
     private var missileSize = 0
