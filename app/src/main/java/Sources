@@ -1,0 +1,49 @@
+
+
+                                Attributions and Citations
+
+        ImageView icons:
+Boy login image (StartUp Activity):
+    Icon made by https://www.flaticon.com/authors/freepik from www.flaticon.com
+Key login image (StartUp Activity):
+    Icon made by https://www.flaticon.com/authors/freepik from www.flaticon.com
+Burrito (Accelerometer Activity):
+    Icon made by https://www.flaticon.com/authors/freepik from www.flaticon.com
+Asteroid (Accelerometer Activity):
+    Icon made by https://www.flaticon.com/authors/freepik from www.flaticon.com
+Comet (Accelerometer Activity):
+    Icon made by https://www.flaticon.com/authors/smalllikeart from www.flaticon.com
+Astronaut (Accelerometer Activity):
+    Icon made by https://www.flaticon.com/authors/zlatko-najdenovski from www.flaticon.com
+
+        Background photos/vector images:
+
+Shuttle vector image (StartUp Activity):
+   https://www.freepik.com/free-vector/space-ship-galaxy-background_4978291.htm#page=1&query=
+   shuttle&position=27#position=27&page=1&query=shuttle   "Designed by brgfx / Freepik"
+
+Space background (HighScores and Accelerometer Activities):
+    https://www.freepik.com/free-photo/3d-abstract-space-sky-with-stars-nebula_2673266.htm#query=
+    space-background&position=27  "Designed by kjpargeter / Freepik"
+
+           Code snippets:
+
+Using persistence w/ SharedPreference actions - StackOverflow (StartUp Activity):
+    https://stackoverflow.com/questions/3310066/making-data-persistent-in-android
+        Borrowed from authors: Pentium10 and Salvioner.
+
+Resize background image to remove lag and improve fit. - StackOverflow (Accelerometer Activity):
+    https://stackoverflow.com/questions/43446661/background-image-in-constraints-
+    layout-does-not-work
+        Borrowed from author: Haris Ali
+
+StackOverFlow response to how to pause program execution. - StackOverflow (Accelerometer Activity):
+    https://stackoverflow.com/questions/11548864/how-to-make-an-android-program-wait
+        Borrowed from author: FoamyGuy
+
+StackOverflow response for detecting collisions between ImageView items. (Accelerometer Activity):
+    https://stackoverflow.com/questions/18398198/how-to-know-if-two-images-are-
+    intersect-while-one-image-moving-in-android
+        Borrowed from author: ter0.
+    Additional Rect Class info referenced from:
+        https://developer.android.com/reference/android/graphics/Rect
