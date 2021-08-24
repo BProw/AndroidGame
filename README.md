@@ -14,7 +14,7 @@
 
 ![login1](screen/login1.png)  
 
-## **User high score screen grab**  
+## **User high main screen to**  
 
 
 
