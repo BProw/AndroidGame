@@ -18,7 +18,7 @@
 
 ![login1](screen/login1.png)  
 
-## **After login**  
+## **After login w/ play and camera selections**  
 
 
 ![highscore1](screen/highscore1.png)  
