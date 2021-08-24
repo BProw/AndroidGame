@@ -14,8 +14,7 @@
 
 ![login1](screen/login1.png)  
 
-## **User main screen after login**  
-
+## **Main screen post successful login**  
 
 
 ![highscore1](screen/highscore1.png)  
