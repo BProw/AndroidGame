@@ -1,6 +1,6 @@
 # "Reggie Goes Interstellar"  
 ## Final Project - CS3013 - Fall 2019
-#### Description 
+#### Description: 
 
 Reggie (player) avoids collisions with enemies (asteroids & satellites) as they move across the screen. Collisions with Burritos slow enemy frequency. Time based game, the longer Reggie avoids enemies the higher the score.  
 
