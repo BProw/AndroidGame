@@ -1,5 +1,6 @@
 # Reggie Goes Interstellar  
-## Mobile  
+## Final Project - CS 3013 - Fall 2019
+### Game where player avoids collisions with enemies (asteroids & satellites) for as long as possible. Collisions with Burritos slow enemy frequency.  
 
 
 * **Login screen**  
