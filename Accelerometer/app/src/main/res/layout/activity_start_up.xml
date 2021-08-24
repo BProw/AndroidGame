@@ -15,8 +15,9 @@
         android:layout_marginLeft="84dp"
         android:layout_marginTop="24dp"
         android:adjustViewBounds="true"
-        android:background="#FFEA00"
         android:scaleType="fitCenter"
+        android:background="#FFEA00"
+
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"

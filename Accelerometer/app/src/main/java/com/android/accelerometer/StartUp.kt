@@ -15,12 +15,24 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_start_up.*
 import java.util.*
 
+/**
+ *
+ * Login Screen for Reggie App. Handle and store login user data.
+ *
+ * @author Brian LeProwse (CS 3013 - Fall 2019)
+ *
+ * https://stackoverflow.com/questions/3310066/making-data-persistent-in-android
+ * In response to settings and start-up data saving question posted on StackOverFlow.
+ *
+ * @authors - Pentium10 and Salvioner
+ *
+ * *** SharedPreference operations related to creation, addition, and search came from source ***
+ */
 class StartUp : AppCompatActivity() {
     private lateinit var nameField : EditText
     private lateinit var pwField : EditText
     private lateinit var nameBtn : ImageButton
-    private lateinit var pwBtn : Button
-    private lateinit var lookUpUser : Button
+    private lateinit var lookUpUser : Button                // Future use to find user***
     private lateinit var alreadyField : EditText
     var time = 0
     var date : Date? = null
@@ -28,6 +40,7 @@ class StartUp : AppCompatActivity() {
     private var password : String = ""
     private var editor : SharedPreferences.Editor? = null
     private var sharedPref : SharedPreferences? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_start_up)
@@ -36,10 +49,11 @@ class StartUp : AppCompatActivity() {
         pwField = findViewById(R.id.pwField)
         nameBtn = findViewById(R.id.nameBtn)
 
-      //  alreadyField.visibility = View.INVISIBLE
-      //  pwBtn.visibility = View.INVISIBLE
-
-
+        /**
+         * https://stackoverflow.com/questions/3310066/making-data-persistent-in-android
+         * In response to settings and start-up data saving question posted on StackOverFlow.
+         * @authors - Pentium10 and Salvioner
+         */
         sharedPref =
             PreferenceManager.getDefaultSharedPreferences(applicationContext)
         // Write user name and pw.
@@ -47,16 +61,16 @@ class StartUp : AppCompatActivity() {
 
         btnClicks()
     }
+
+    /**
+     *  Handle login button clicks.
+     */
     private fun btnClicks() {
-        var name = ""
-        var pass = ""
+
         time = (System.currentTimeMillis()/1000).toInt()
 
-       // var seconds = date.seconds
-        //enterBtn.text = seconds.toString()
-
         nameBtn.setOnClickListener {
-           // editor!!.clear().commit()
+
             user = nameField.text.toString()
             password = pwField.text.toString()
 
@@ -76,7 +90,6 @@ class StartUp : AppCompatActivity() {
                             Toast.LENGTH_SHORT).show()
                     }
 
-
                 } else if(!sharedPref!!.contains(user)) {
                     saveUserInfo(user, password)
                 } else {
@@ -90,6 +103,10 @@ class StartUp : AppCompatActivity() {
         }
 
     }
+
+    /**
+     *  *** Not in use (11.22.19). Future to prompt user for their password. ***
+     */
     private fun promptForPW(user: String) {
         var pw = ""
         var inputPW = ""
@@ -98,6 +115,11 @@ class StartUp : AppCompatActivity() {
         getPass(user)
 
     }
+    /**
+     *
+     * Save new user info and start game activity.
+     *
+     */
     private fun saveUserInfo(user : String, pw : String) {
 
         setUser(user)
@@ -107,16 +129,18 @@ class StartUp : AppCompatActivity() {
 
         editor!!.commit()
 
-
         Toast.makeText(this,
             "new user: $user \t$password", Toast.LENGTH_LONG)
             .show()
 
+        // Start game after save.
         val intent = Intent(this,Accelerometer::class.java)
         startActivity(intent)
-
-
     }
+
+    /**
+     *  *** Not in use (11.22.19). Future ***
+     */
     private fun findUserName(user: String) : Boolean {
 
         var n = sharedPref!!.getString(user, "")
@@ -128,6 +152,10 @@ class StartUp : AppCompatActivity() {
         }
       return false
     }
+
+    /**
+     *  *** Not in use (11.22.19). Future, compare user PW to actual match from user name ***
+     */
     private fun getPass(user : String) : String {
         if(sharedPref!!.contains(user)) {
             var p = sharedPref!!.getString(user, password)
