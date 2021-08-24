@@ -2,4 +2,4 @@
 ## Mobile  
 
 * **User high score screen grab**  
-![High Score](highScore.png)  
+![highScore](highScore.png)  
