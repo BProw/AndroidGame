@@ -25,10 +25,7 @@ Reggie (player) avoids collisions with enemies (asteroids & satellites) as they 
 
 ## **Login screen**  
 
-
 ![login1](screen/login1.png)  
-
-## **User main screen after login**  
 
 ## **After login w/ play and camera selections**  
 
