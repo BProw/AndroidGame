@@ -5,7 +5,7 @@
 #### Android Elements  
 * Accelerometer sensor for game play.
 * User creds. & high score persistent (Score not saved currently).
-* Functionality for user to access camera to change photo.
+* Functionality for user to access device camera to customize their account.
 
 
 
