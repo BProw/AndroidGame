@@ -7,7 +7,7 @@ Reggie (player) avoids collisions with enemies (asteroids & satellites) as they 
 
 #### Elements applied:  
 * Accelerometer sensor for game play
-* User creds. & high score persistent (Score not saved currently)
+* User creds. & *high score* persistent (*Score not saving 08.24.21*)
 * Functionality for user to access device camera to customize their account
 
 #### Improvements:  
