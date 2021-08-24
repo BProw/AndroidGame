@@ -14,7 +14,7 @@
 
 ![login1](screen/login1.png)  
 
-## **User high main screen to**  
+## **User main screen after login**  
 
 
 
