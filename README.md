@@ -7,7 +7,7 @@
 * User creds. & high score persistent (Score not saved currently).
 * Functionality for user to access device camera to customize their account.
 
-### Improvements:  
+#### Improvements:  
  * Adaptive screen sizing for elements
  * Segementation of Accelerometer.kt
  * Storing user high scores/photos
