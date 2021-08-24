@@ -6,7 +6,7 @@
 ![login](screen/login.png)  
 
 * **User high score screen grab**  
-![highScore](screen/highScore.png)  
+![highscore](screen/highscore.png)  
   
 
 ## References:
