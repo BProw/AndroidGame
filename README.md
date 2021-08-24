@@ -3,8 +3,9 @@
 #### Reggie (player) avoids collisions with enemies (asteroids & satellites). Collisions with Burritos slow enemy frequency. Time based game, the longer Reggie avoids enemies the higher the score.  
 
 #### Android Elements  
-* Accelerometer sensor  
-* User login, high score persistent w/ SharedPrefence.  
+* Accelerometer sensor for game play.
+* User creds. & high score persistent (Score not saved currently).
+* Functionality for user to access camera to change photo.
 
 
 
